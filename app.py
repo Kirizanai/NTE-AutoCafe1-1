@@ -331,8 +331,8 @@ class App:
                                 tag="tex_vista")
         self._ventana()
         ico = str(CARPETA_RECURSOS / "icono.ico")
-        dpg.create_viewport(title=NOMBRE, width=S(1010), height=S(830), min_width=S(960),
-                            min_height=S(740), small_icon=ico, large_icon=ico,
+        dpg.create_viewport(title=NOMBRE, width=S(1010), height=S(870), min_width=S(960),
+                            min_height=S(760), small_icon=ico, large_icon=ico,
                             clear_color=C_FONDO + (255,))
         dpg.setup_dearpygui()
         dpg.show_viewport()
@@ -375,7 +375,7 @@ class App:
 
             with dpg.group(horizontal=True):
                 # ---------------- columna izquierda
-                with dpg.child_window(width=izq_w, height=-1, no_scrollbar=True):
+                with dpg.child_window(width=izq_w, height=-1):
                     self._etiqueta(t("sec_config"))
                     with self._tabla_form():
                         dpg.add_table_column(width_fixed=True, init_width_or_weight=lbl_w)
