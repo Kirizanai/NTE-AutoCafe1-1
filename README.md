@@ -21,13 +21,18 @@ A portable Windows bot for the **stage 1-1 café minigame** in *Neverness to Eve
 - **English / Spanish** interface (English by default).
 - **Observe-only mode** for testing without clicks, F9 / F8 hotkeys and an emergency stop corner.
 
+## Requirements
+
+- Windows 10/11 (64-bit).
+- **Baicang, Mint and Nanally equipped as Support Employees** for stage 1-1 (any order). The bot's whole strategy is the 100T hammer, and that only reaches the revenue target with this team. **Without these three it does not work.**
+
 ## Download
 
 Get the latest `NTE-AutoCafe1-1-vX_Y_Z-Windows-x64.exe` from **[Releases](https://github.com/Kirizanai/NTE-AutoCafe1-1/releases/latest)** and run it. No installation needed.
 
 ## How to use
 
-1. Open the game on the **stage 1-1 menu** (the *Owner's Selection* screen).
+1. Open the game on the **stage 1-1 menu** (the *Owner's Selection* screen) and make sure **Baicang, Mint and Nanally** are your Support Employees. If not, change them with *Swap Employee*.
 2. Run the `.exe`. Accept the administrator prompt: it is needed so the clicks reach the game.
 3. Type your **current stamina**. The app shows how many runs that is.
 4. If you play **windowed**, press **Find** and pick the game window. For fullscreen, leave **Fullscreen** selected.
@@ -76,6 +81,7 @@ Settings are saved to `ajustes.json` and the log to `registro.txt`, both next to
 
 ## Troubleshooting
 
+- **It uses the hammer but never reaches the goal:** check that Baicang, Mint and Nanally are equipped as Support Employees.
 - **Windows SmartScreen warning:** the `.exe` is not code-signed. Click *More info* → *Run anyway*.
 - **Clicks do nothing:** keep the game visible (no window on top of it) and accept the administrator prompt.
 - **The live view is black:** switch the game to borderless or windowed mode.

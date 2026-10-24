@@ -21,13 +21,18 @@ Bot portable para Windows que juega la **etapa 1-1 del minijuego de la cafeterí
 - Interfaz en **inglés o español** (inglés por defecto).
 - **Modo solo observar** para probar sin clics, atajos F9 / F8 y freno de emergencia en la esquina.
 
+## Requisitos
+
+- Windows 10/11 (64 bits).
+- **Baicang, Mint y Nanally equipados como Support Employees** en la etapa 1-1 (en cualquier orden). Toda la estrategia del bot es el martillo 100T, y eso solo alcanza la meta de Revenue con este equipo. **Sin estos tres no funciona.**
+
 ## Descarga
 
 Baja el último `NTE-AutoCafe1-1-vX_Y_Z-Windows-x64.exe` desde **[Releases](https://github.com/Kirizanai/NTE-AutoCafe1-1/releases/latest)** y ábrelo. No requiere instalación.
 
 ## Cómo usarlo
 
-1. Abre el juego en el **menú de la etapa 1-1** (la pantalla *Owner's Selection*).
+1. Abre el juego en el **menú de la etapa 1-1** (la pantalla *Owner's Selection*) y confirma que tus Support Employees sean **Baicang, Mint y Nanally**. Si no, cámbialos con *Swap Employee*.
 2. Abre el `.exe` y acepta el aviso de administrador: hace falta para que los clics le lleguen al juego.
 3. Escribe tu **stamina actual**. La app te muestra cuántas rondas salen.
 4. Si juegas **en ventana**, pulsa **Buscar** y elige la ventana del juego. Para pantalla completa, deja **Pantalla completa**.
@@ -76,6 +81,7 @@ Los ajustes se guardan en `ajustes.json` y el registro en `registro.txt`, ambos 
 
 ## Problemas comunes
 
+- **Usa el martillo pero nunca llega a la meta:** revisa que Baicang, Mint y Nanally estén equipados como Support Employees.
 - **Aviso de Windows SmartScreen:** el `.exe` no está firmado. Pulsa *Más información* → *Ejecutar de todas formas*.
 - **Los clics no hacen nada:** deja el juego visible (sin ventanas encima) y acepta el aviso de administrador.
 - **La vista en vivo sale negra:** cambia el juego a modo sin bordes o ventana.
