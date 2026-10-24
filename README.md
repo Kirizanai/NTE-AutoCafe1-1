@@ -26,6 +26,8 @@ A portable Windows bot for the **stage 1-1 café minigame** in *Neverness to Eve
 - Windows 10/11 (64-bit).
 - **Baicang, Mint and Nanally equipped as Support Employees** for stage 1-1 (any order). The bot's whole strategy is the 100T hammer, and that only reaches the revenue target with this team. **Without these three it does not work.**
 
+<p align="center"><img src="docs/required-team.png" alt="Required Support Employees: Baicang, Mint and Nanally" width="560"></p>
+
 ## Download
 
 Get the latest `NTE-AutoCafe1-1-vX_Y_Z-Windows-x64.exe` from **[Releases](https://github.com/Kirizanai/NTE-AutoCafe1-1/releases/latest)** and run it. No installation needed.

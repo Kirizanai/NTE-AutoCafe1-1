@@ -26,6 +26,8 @@ Bot portable para Windows que juega la **etapa 1-1 del minijuego de la cafeterí
 - Windows 10/11 (64 bits).
 - **Baicang, Mint y Nanally equipados como Support Employees** en la etapa 1-1 (en cualquier orden). Toda la estrategia del bot es el martillo 100T, y eso solo alcanza la meta de Revenue con este equipo. **Sin estos tres no funciona.**
 
+<p align="center"><img src="docs/required-team.png" alt="Support Employees requeridos: Baicang, Mint y Nanally" width="560"></p>
+
 ## Descarga
 
 Baja el último `NTE-AutoCafe1-1-vX_Y_Z-Windows-x64.exe` desde **[Releases](https://github.com/Kirizanai/NTE-AutoCafe1-1/releases/latest)** y ábrelo. No requiere instalación.
